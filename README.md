@@ -1,4 +1,4 @@
-# Predictive Maintenance & Failure Classification 
+# Predictive Maintenance & Failure Classification
 
 ## Objective
 This project analyzes the AI4I 2020 Predictive Maintenance Dataset to identify the operational drivers of manufacturing equipment failure. By analyzing sensor metrics like torque, rotational speed, and temperature, we built predictive models to classify machine failures before they occur.
@@ -16,4 +16,8 @@ This project analyzes the AI4I 2020 Predictive Maintenance Dataset to identify t
 * `*.png`: Various exported data visualizations (Correlation Heatmaps, ROC Curves, Boxplots).
 
 ## Key Results
-Our final K-Nearest Neighbors model achieved an accuracy of **96.75%** on the testing data, outperforming the baseline Logistic Regression model in sensitivity and balanced accuracy.
+Our final K-Nearest Neighbors model achieved an accuracy of **96.75%** on the testing data, outperforming the baseline Logistic Regression model in sensitivity and balanced accuracy. 
+
+## Data Source & Citation
+The data used in this project is publicly available from the UCI Machine Learning Repository:
+> Stephan, S. (2020). *AI4I 2020 Predictive Maintenance Dataset*. UCI Machine Learning Repository. https://doi.org/10.24432/C5HS5C.
